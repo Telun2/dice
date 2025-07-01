@@ -17,5 +17,10 @@ int main(){
     total = n+m;
     printf("Total value:%d\n",total);
 
+    if ( total >= 8){
+        printf("You won!\n");
+    }
+    else printf("You lost\n");
+
     return 0;
 }
